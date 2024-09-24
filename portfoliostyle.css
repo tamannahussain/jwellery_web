@@ -1,0 +1,174 @@
+*{ 
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.navbar-brand{
+	font-size: 2rem;
+	color:#ff80bf;
+	font-family: 'Lobstar','cursive';
+}
+.navbar-brand:hover{
+color: black;
+}
+.nav-link{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: black;    
+	font-family: 'Rubic',sans-serif;
+	text-transform: uppercase;
+}
+.nav-link:hover{
+	color: black;
+}
+.search{  
+	height:40px ;
+	width: 80%; 
+	border-radius:60px ;
+	outline: none;
+	margin-right:-35px;
+	font-family: 'Rubic',sans-serif;
+	border: 2px solid #ff4dff;
+}
+.btn0{ 
+	height: 40px;
+	width: 40%;
+	outline: none;
+ 	border: none;
+	color: white;
+	background:#ff80bf;
+	border-radius:60px ;
+	font-weight: 700;
+
+} 
+
+
+/* Hover effect on images
+
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}*/
+
+
+
+.section1{
+	/*background:url(img_banner.jpeg) no repeat;
+	background-size:cover; 
+	background-position:50% 50% ;
+	height:100vh;
+	width: 100%;*/
+	background:url(img_banner.jpeg)no-repeat;
+	background-size:cover;
+	height: 100vh;
+	width:100%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.section1 h2{
+	font-size:4rem;
+	font-weight:700;
+}
+
+.btn1{
+	height:45px;
+	width:35%;
+	outline: none;
+	border:none;
+	background-color:#ff80bf;
+	font-weight: 700;  
+	border-radius: 60px;
+ 
+}
+.btn1:hover{
+	background-color:#ff80bf;
+	
+} 
+h1{
+	font-weight: 700;
+}
+.card:hover{
+	-webkit-box-shadow: 1px -1px 26px 0px rgba(90, 66, 82, 1);
+-moz-box-shadow: 1px -1px 26px 0px rgba(90, 66, 82, 1);
+box-shadow: 1px -1px 26px 0px rgba(90, 66, 82, 1);
+
+}
+
+.big-img{
+	background:url(img_banner.jpeg)no-repeat;
+	background-size:cover;
+	height: 80vh;
+	width:100%;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+/* Hover effect on images */
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+
+.big-img h1{
+	font-family: 'Lobstar','cursive';
+	justify-content: center;
+	color: black;
+
+}
+
+
+/*Footer part*/
+
+.footer{
+	background-color:#ff80bf ;
+	color:black;
+
+}
+.btn2{
+	height: 45px;
+	width: 100px;
+	background:white;
+	margin-left:-10px;
+	border: 2px solid black;
+	font-weight:600;
+}
+.footer input{
+	height: 45px; 
+	width:55%;
+	border: 2px solid black;
+	outline:none;
+	background: white;
+	color:black;
+	margin-top:20px ;
+	font-weight:600
+}
+.footer :: placeholder{
+	color: black;
+
+}
+.footer P{
+	max-resolution: inherit;
+	/*font-size: 2.5rem;
+	padding-right:5px;
+	cursor: pointer;*/
+}
+.footer P{
+	margin:0;
+}
+
+
+
+
+
+
+
+
+
+
