@@ -1,1 +1,1 @@
-Jwellery Website
+Welcome to Jwellery website
